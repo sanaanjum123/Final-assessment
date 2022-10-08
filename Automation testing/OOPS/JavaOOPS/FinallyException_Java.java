@@ -1,0 +1,20 @@
+package JavaOOPS;
+
+public class FinallyException_Java {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     try {
+    	 int a=3;
+    	 int b=0;
+    	System.out.println(a*b);
+     }
+     catch(ArithmeticException e) {
+    	 System.out.println("multiply by zero exception");
+     }
+     finally {
+    	 System.out.println("Finally block is executed");
+     }
+	}
+
+}
+	
